@@ -4,6 +4,14 @@
     <title></title>
 </head>
 <body>
+    <h1>Conway's game of life</h1>
+    <canvas id="myCanvas" width="600" height="300" style="border:1px solid #000000;"></canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
 
+        ctx.fillStyle = "#000000";
+        ctx.fillRect(100, 200, 8, 8);
+    </script>
 </body>
 </html>

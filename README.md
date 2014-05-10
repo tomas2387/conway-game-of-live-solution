@@ -1,7 +1,10 @@
-QUICK START
-===========
+QUICK INSTALLATION
+==================
 
 ```npm install```
+
+START TEST ENVIRONMENT
+======================
 
 Linux / Mac OS
 --------------
@@ -10,3 +13,11 @@ Linux / Mac OS
 Windows
 -------
 ```./karma.bat start```
+
+QUICK START
+==================
+
+```
+  npm install -g serve
+  serve ./
+```
