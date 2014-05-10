@@ -5,13 +5,12 @@
 </head>
 <body>
     <h1>Conway's game of life</h1>
-    <canvas id="myCanvas" width="600" height="300" style="border:1px solid #000000;"></canvas>
+    <script src="js/src/grid.js"></script>
     <script>
-        var c = document.getElementById("myCanvas");
-        var ctx = c.getContext("2d");
-
-        ctx.fillStyle = "#000000";
-        ctx.fillRect(100, 200, 8, 8);
+        var grid = new Grid(200, 100, 4);
+        grid.setPoint(0, 0);
+        grid.setPoint(100, 90);
+        grid.setPoint(199, 99);
     </script>
 </body>
 </html>

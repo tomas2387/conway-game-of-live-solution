@@ -1,1 +1,1 @@
-./node_modules/karma/bin/karma %1
+node node_modules\karma\bin\karma %1
